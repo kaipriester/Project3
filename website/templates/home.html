@@ -14,9 +14,52 @@
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             crossorigin="anonymous"
             />
-        <title>{% block title %}Home{% endblock %}</title>
+        <style>
+            .button {
+                border: none;
+                color: rgb(252, 252, 252);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-weight: bold;
+                background-color: #1d3f86;
+            }
+        </style>
     </head>
     <body>
-        
+        <h1 style="text-align:center">Tropical Storm Detector</h1>
+        <h3 style="text-align:center">Analyzing NOAA Offshore Florida Buoy Data to Find Past Hurricanes</h3>
+        <h3 style="text-align:center">University of Florida COP 3530 Data Structures and Algorithms </h3>
+        <p>&nbsp</p>  
+        <p style="text-align:center"><img src="static/buoy.jpg" alt="buoy" class="center"></p>
+        <h5 style="text-align:center" >Station 41009 (LLNR 840) - CANAVERAL 20 NM East of Cape Canaveral, FL
+            Owned and maintained by National Data Buoy Center
+            3-meter foam buoy
+            28.508 N 80.185 W (28°30'27" N 80°11'6" W)
+        </h5>  
+        <p>&nbsp</p>  
+        <h5 style="text-align:center">The National Oceanic and Atmospheric Administration’s (NOAA) moored buoys 
+            are essentially sea weather stations. These stations collect a massive amount of data on the hourly 
+            oceanographic environment. They transit data on the wave height and period, barometric pressure, 
+            temperatures, and wind. As you can imagine, this data is essential to meteorology, environmental 
+            studies, and climate sciences. One valuable data set is wind gust recordings. Wind gusts are great 
+            indicators of tropical storms. If there are recorded wind gusts greater than 75mph (65 knots) then 
+            the buoy is likely in a hurricane. The wind data from the buoy is recorded real time approximately 
+            every ten minutes. There is an archive of this data, and the goal is to capture the k greatest 
+            recorded wind gusts greater than 75mph.</h5>
+        <p>&nbsp</p>  
+        <h4 style="font-weight: bold; text-align:center">Please chose which data structure you would like to use for this search… The button will redirect 
+            to a page where you can perform the max search then view results and timing analysis. </h4> 
+        <p>&nbsp</p> 
+
+        <center>
+        <a href="sort"><button class="button">Sort Array</button></a>
+        <a href="minheap"><button class="button">Min Heap</button></a> 
+        </center>
+        <p>&nbsp</p> 
     </body>
 </html>   

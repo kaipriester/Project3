@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+            />
+            <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            crossorigin="anonymous"
+            />
+        <style>
+            .button {
+                border: none;
+                color: rgb(252, 252, 252);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-weight: bold;
+                background-color: #1d3f86;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center">Tropical Storm Detector</h1>
+        <h2 style="text-align:center">Sort Array</h2>
+        <h3 style="text-align:center">Analyzing NOAA Offshore Florida Buoy Data to Find Past Hurricanes</h3>
+        <h3 style="text-align:center">University of Florida COP 3530 Data Structures and Algorithms </h3>
+        <p>&nbsp</p>  
+        <h5 style="text-align:center">Stores “wind_speed_of_gust (mile.hour-1)” as key and “time (UTC)” 
+            as value in map. Then store keys in array and sort using Timsort sort (hybrid of merge 
+            and insertion) then collects first k elements and present their values. Below specify k and 
+            click submit to find top k dates with the highest wind gusts along with the computational 
+            timing.</h5>
+        <p>&nbsp</p>  
+
+    <center>
+    <form method="POST">
+        <input type="text" id="k" name="k" value="10"><br>
+        <input class="button" type="submit" value="Submit">
+    </form> 
+    </center>
+
+        <p>&nbsp</p> 
+    </body>
+</html>   
