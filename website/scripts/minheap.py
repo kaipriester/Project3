@@ -1,5 +1,4 @@
 import time
-import pandas as pd
 from website.scripts.sort import read_csv
 
 def min_heap(k):
@@ -13,7 +12,7 @@ def min_heap(k):
         minHeap.append(values[i])
 
     for i in range(k, len(values)):
-        minHeap.sort()
+        #minHeap.sort()
         if (not minHeap[0] > values[i]):
             minHeap.pop(0)
             minHeap.append(values[i])
