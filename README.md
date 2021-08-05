@@ -1,5 +1,6 @@
 # Tropical Storm Detector: 
 ## Analyzing NOAA Offshore Florida Buoy Data to Find Past Hurricanes
+### COP 3530 Data Structures and Algorithms Final Project
 
 __Problem:__
 The National Oceanic and Atmospheric Administration’s (NOAA) moored buoys are essentially
